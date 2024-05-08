@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name              = "TunnelKit"
-    s.version           = "3.5.0"
+    s.version           = "3.5.0-fixed"
     s.summary           = "VPN client library for Apple platforms."
 
     s.homepage          = "https://github.com/passepartoutvpn/tunnelkit"
     s.license           = { :type => "GPLv3", :file => "LICENSE" }
     s.author            = { "Davide De Rosa" => "me@davidederosa.com" }
-    s.source            = { :git => "https://github.com/passepartoutvpn/tunnelkit.git", :tag => "v#{s.version}" }
+    s.source            = { :git => "https://github.com/romap0/tunnelkit.git", :tag => "v#{s.version}" }
     s.swift_version     = "5.1"
 
     s.ios.deployment_target = "12.0"
